@@ -1,0 +1,11 @@
+[wsl2]
+memory=2GB
+swap=0
+
+networkingMode=mirrored
+guiApplications=false
+vmIdleTimeout=300000
+
+[experimental]
+autoMemoryReclaim=gradual
+sparseVhd=true
